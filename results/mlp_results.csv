@@ -1,9 +1,9 @@
 Model,Experiment,Val Accuracy,Macro F1,Top-5 Acc
-MLP,MLP-A_CrossEntropy_RMSprop,0.45,0.4485,0.7231
-MLP,MLP-A_CrossEntropy_Adam,0.449,0.4481,0.7221
-MLP,MLP-B_CrossEntropy_Adam,0.4212,0.4188,0.7048
-MLP,MLP-A_MultiMargin_RMSprop,0.4163,0.4179,0.7183
-MLP,MLP-A_MultiMargin_Adam,0.4163,0.4161,0.7106
-MLP,MLP-B_CrossEntropy_RMSprop,0.4067,0.405,0.7029
-MLP,MLP-B_MultiMargin_RMSprop,0.3471,0.3291,0.6769
-MLP,MLP-B_MultiMargin_Adam,0.3433,0.3347,0.6663
+MLP,MLP-A_CrossEntropy_Adam,0.4625,0.4613,0.7337
+MLP,MLP-A_CrossEntropy_RMSprop,0.4548,0.4526,0.7346
+MLP,MLP-B_CrossEntropy_Adam,0.4269,0.4194,0.7192
+MLP,MLP-A_MultiMargin_Adam,0.424,0.4139,0.7212
+MLP,MLP-A_MultiMargin_RMSprop,0.4163,0.4076,0.7212
+MLP,MLP-B_CrossEntropy_RMSprop,0.4144,0.4008,0.7106
+MLP,MLP-B_MultiMargin_RMSprop,0.3385,0.3228,0.6865
+MLP,MLP-B_MultiMargin_Adam,0.3375,0.3149,0.6731
