@@ -1,9 +1,0 @@
-Model,Experiment,Val Accuracy,Macro F1,Top-5 Acc
-CNN,CNN-A_CrossEntropy_Adam,0.8356,0.8361,0.9587
-CNN,CNN-B_CrossEntropy_Adam,0.8154,0.814,0.9606
-CNN,CNN-A_CrossEntropy_RMSprop,0.8125,0.815,0.9558
-CNN,CNN-A_MultiMargin_RMSprop,0.801,0.8011,0.9519
-CNN,CNN-A_MultiMargin_Adam,0.776,0.7762,0.949
-CNN,CNN-B_CrossEntropy_RMSprop,0.7423,0.7364,0.9442
-CNN,CNN-B_MultiMargin_Adam,0.6875,0.6815,0.9308
-CNN,CNN-B_MultiMargin_RMSprop,0.675,0.6687,0.9337

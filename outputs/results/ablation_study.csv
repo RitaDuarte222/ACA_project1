@@ -1,0 +1,7 @@
+Configuração,Val Accuracy,Val Macro F1,Técnica adicionada
+Fase 1 — melhor baseline,0.0,0.0,—
++ Melhor LR (0.0001),0.9538,0.9543,LR search
++ Fine-tuning gradual,0.9221,0.9222,Unfreeze layer3+4
++ CosineAnnealingLR,0.949,0.9489,LR Scheduler
++ CutMix,0.9606,0.9617,CutMix augmentation
++ Label Smoothing,0.9577,0.9577,Label smoothing 0.1
