@@ -1,0 +1,13 @@
+Arquitectura,Loss,Optimizador,Val Accuracy,Val Macro F1,Epochs ran,Tempo (s)
+resnet18,CrossEntropyLoss,Adam,0.9548,0.956,15,460.4
+resnet50,CrossEntropyLoss,Adam,0.9462,0.9471,15,1271.5
+resnet50,MultiMarginLoss,Adam,0.9423,0.9427,15,1260.1
+resnet34,CrossEntropyLoss,Adam,0.9375,0.939,12,721.0
+resnet34,MultiMarginLoss,Adam,0.9356,0.9352,15,716.9
+resnet18,MultiMarginLoss,Adam,0.9154,0.9162,14,437.5
+resnet50,CrossEntropyLoss,RMSprop,0.874,0.8712,15,1269.0
+resnet18,CrossEntropyLoss,RMSprop,0.7865,0.7797,10,312.0
+resnet34,CrossEntropyLoss,RMSprop,0.7596,0.7572,15,7629.0
+resnet50,MultiMarginLoss,RMSprop,0.7106,0.6957,10,846.8
+resnet18,MultiMarginLoss,RMSprop,0.6452,0.6252,15,474.5
+resnet34,MultiMarginLoss,RMSprop,0.624,0.6073,15,733.7
