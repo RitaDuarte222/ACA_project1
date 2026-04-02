@@ -1,0 +1,6 @@
+Hidden Dims,LR,Batch Size,Dropout,Loss,Optimizer,Best Val Acc,Val Accuracy,Macro F1,Top-5 Acc
+"[1024, 512]",0.001,32,0.3,CrossEntropy,Adam,0.4856,0.4856,0.485,0.7452
+"[1024, 512]",0.001,64,0.3,CrossEntropy,Adam,0.4846,0.4846,0.4853,0.7481
+"[1024, 512]",0.0001,64,0.3,CrossEntropy,RMSprop,0.4779,0.4779,0.4776,0.7423
+"[1024, 512]",0.0001,64,0.3,CrossEntropy,Adam,0.4702,0.4702,0.4678,0.7375
+"[1024, 512]",0.0001,32,0.3,CrossEntropy,Adam,0.4644,0.4644,0.4622,0.7423
