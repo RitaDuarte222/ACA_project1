@@ -1,4 +1,4 @@
-Modelo,Baseline fase 1,LR search acc,Fine-tuning acc,Scheduler acc,CutMix acc,Label Smoothing acc,Modelo final acc,Modelo final F1,Ganho vs baseline
-resnet18_CE_Adam,0.9548,0.9442,0.9115,0.951,0.9481,0.949,0.9462,0.9462,-0.0086
-resnet50_CE_Adam,0.9462,0.9413,0.925,0.9577,0.9558,0.9615,0.9587,0.9598,0.0125
-resnet50_MM_Adam,0.9423,0.9394,0.9029,0.9327,0.9481,N/A (MultiMarginLoss),0.9481,0.9485,0.0058
+Modelo,Baseline fase 1,Grid best acc,Hiperparametros fonte,LR usado,Dropout usado,Weighted usado,Fine-tuning acc,Scheduler acc,CutMix acc,Label Smoothing acc,Combinado acc,Modelo final fonte,Modelo final acc,Modelo final F1,Ganho vs baseline
+resnet18_CE_Adam,0.9548,0.9442,fase_1_originais,0.0001,0.0,False,0.9192,0.95,0.949,0.95,N/A (0 tecnicas),baseline_re-treino,0.9471,0.9487,-0.0077
+resnet50_CE_Adam,0.9462,0.9519,grid,0.0001,0.3,False,0.9212,0.951,0.9615,0.9587,0.9577,individual (cutmix),0.9615,0.9624,0.0153
+resnet50_MM_Adam,0.9423,0.9433,grid,0.0001,0.3,True,0.8971,0.9337,0.9337,N/A,N/A (0 tecnicas),baseline_re-treino,0.9433,0.9442,0.001
